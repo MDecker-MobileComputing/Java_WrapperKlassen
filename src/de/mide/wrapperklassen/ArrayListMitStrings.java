@@ -16,10 +16,9 @@ public class ArrayListMitStrings {
 		arrayList.add( "Dave"  );
 		arrayList.add( "Eve"   );
 		
-		arrayList.add( 2, "Claire" ); // an dritter Stelle "Claire" einfügen
+		arrayList.add( 2, "Claire" );
 		arrayList.remove( "Eve" );
-		
-		
+				
 		System.out.println( arrayList );
 		
 		System.out.println();

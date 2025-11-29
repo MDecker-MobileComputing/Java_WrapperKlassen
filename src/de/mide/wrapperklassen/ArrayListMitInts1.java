@@ -26,11 +26,12 @@ public class ArrayListMitInts1 {
 		arrayList.add( int12 );
 		arrayList.add( int15 );
 		
-		arrayList.add( 2, int9 ); // an dritter Stelle die 9 einfügen
+		arrayList.add( 2, int9 );
 		arrayList.remove( int15 );
 	
 		System.out.println( arrayList );
 		
 		System.out.println();
 	}
+	
 }

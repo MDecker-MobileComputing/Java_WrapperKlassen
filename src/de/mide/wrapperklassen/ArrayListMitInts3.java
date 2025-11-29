@@ -19,7 +19,7 @@ public class ArrayListMitInts3 {
 		arrayList.add( 12 );
 		arrayList.add( 15 );
 		
-		arrayList.add( 2, 9 ); // an dritter Stelle die 9 einfügen
+		arrayList.add( 2, 9 ); 
 		arrayList.remove( Integer.valueOf( 15 ) );
 	
 		System.out.println( arrayList );
