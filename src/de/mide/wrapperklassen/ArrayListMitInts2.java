@@ -4,8 +4,14 @@ import java.util.ArrayList;
 
 public class ArrayListMitInts2 {
 
+	/**
+	 * Integer-Objekte mit statischer Methode {@code valueOf()} erzeugen
+	 * und in ArrayList-Klasse speichern.
+	 */
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void main( String[] args ) {
+		
+		System.out.println();
 		
 		ArrayList arrayList = new ArrayList<>();
 				
@@ -24,5 +30,7 @@ public class ArrayListMitInts2 {
 		arrayList.remove( int15 );
 	
 		System.out.println( arrayList );
+		
+		System.out.println();
 	}
 }

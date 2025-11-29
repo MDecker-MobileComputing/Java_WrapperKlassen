@@ -7,6 +7,8 @@ public class ArrayListMitStrings {
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void main( String[] args ) {
 			
+		System.out.println();
+		
 		ArrayList arrayList = new ArrayList<>();
 		
 		arrayList.add( "Alice" );
@@ -19,6 +21,8 @@ public class ArrayListMitStrings {
 		
 		
 		System.out.println( arrayList );
+		
+		System.out.println();
 	}
 	
 }
